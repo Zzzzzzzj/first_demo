@@ -7,7 +7,7 @@ public class StudentTest {
 
 	private int sid;
 	private String name;
-	
+
 	
 	public int getSid() {
 		return sid;
@@ -21,4 +21,11 @@ public class StudentTest {
 	public void setName(String name) {
 		this.name = name;
 	}
+	@Override
+	public String toString() {
+		return "StudentTest [sid=" + sid + ", name=" + name + "]";
+	}
+	
+	
+	
 }
